@@ -4,7 +4,8 @@ is
     is
         pragma autonomous_transaction;
     begin
-        insert into zzz_log (msg) values (p_msg);
+        -- Added created on date
+        insert into zzz_log (msg, created_on) values (p_msg, sysdate);
         commit;
     end log_msg;
     
