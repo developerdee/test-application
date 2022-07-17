@@ -1,2 +1,2 @@
 # test-application
-A test application fro playing around with repos
+A test application for playing around with repos
