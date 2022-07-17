@@ -3,7 +3,8 @@ drop table zzz_log purge;
 create table zzz_log
 (
     log_id number generated always as identity,
-    msg varchar2(4000) not null
+    msg varchar2(4000) not null,
+    created_on date not null
 );
 
 alter table zzz_log 
